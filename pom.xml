@@ -11,7 +11,7 @@
     <repository>
       <id>my-repo2</id>
       <name>public</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
+      <url>http://ip-172-31-22-36.us-east-2.compute.internal:8081/nexus/content/groups/public/</url>
     </repository>
     <repository>
       <id>my-repo1</id>
@@ -32,14 +32,14 @@
      <id>myapp-deploy</id>
  <distributionManagement>
     <repository>
-      <id>spring-releases</id>
-      <name>spring-releases</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-releases/</url>
+      <id>myapp-releases</id>
+      <name>myapp-releases</name>
+      <url>http://ip-172-31-22-36.us-east-2.compute.internal:8081/nexus/content/repositories/myapp-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>spring-snapshots</id>
-      <name>spring-snapshots</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/spring-snapshots/</url>
+      <id>myapp-snapshots</id>
+      <name>myapp-snapshots</name>
+      <url>http://ip-172-31-22-36.us-east-2.compute.internal:8081/nexus/content/repositories/myapp-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
